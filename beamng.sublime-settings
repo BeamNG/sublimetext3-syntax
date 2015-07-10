@@ -1,0 +1,14 @@
+{
+    "todo_patterns": [
+        "TODO\\s*:+\\s*(?P<todo>.*)$"
+    ],
+    "priority_patterns": [
+        "#p(?P<priority>[1-3])"
+    ],
+    "is_ignore_case": true,
+    "ignored_dir_patterns": [".svn", ".git", ".hg", "CVS"],
+    "only_care_file_patterns": ["*.cpp", "*.c", "*.h", "*.py", "*.js", "*.md"],
+    "color_scheme": "Packages/User/beamng.hidden-tmTheme",
+    "auto_show_context": false,
+    "show_linenum": false
+}

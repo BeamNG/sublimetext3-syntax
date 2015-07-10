@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+    <string>BeamNG Theme</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>beamng.log.comment</string>
+            <key>scope</key>
+            <string>beamng.log.comment</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#1A9900</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>beamng.log.levelDebug</string>
+            <key>scope</key>
+            <string>beamng.log.levelDebug</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#aaaaaa</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>beamng.log.levelWarn</string>
+            <key>scope</key>
+            <string>beamng.log.levelWarn</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#BFA300</string>
+                <key>foreground</key>
+                <string>#ffffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>beamng.log.levelError</string>
+            <key>scope</key>
+            <string>beamng.log.levelError</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#CC2500</string>
+                <key>foreground</key>
+                <string>#ffffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>beamng.log.levelInfo</string>
+            <key>scope</key>
+            <string>beamng.log.levelInfo</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#0003CC</string>
+            </dict>
+        </dict>
+    </array>
+    <key>uuid</key>
+    <string>5fb77f58-2721-11e5-b345-feff819cdcaf</string>
+</dict>
+</plist>

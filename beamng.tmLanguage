@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>BeamNG Log</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>match</key>
+            <string>^--.*$</string>
+            <key>name</key>
+            <string>beamng.log.comment</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([^|]+)[|](A|I)[|]([^|]+)[|](.*)$</string>
+            <key>name</key>
+            <string>beamng.log.levelInfo</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([^|]+)[|](D)[|]([^|]+)[|](.*)$</string>
+            <key>name</key>
+            <string>beamng.log.levelDebug</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([^|]+)[|][E][|]([^|]+)[|](.*)$</string>
+            <key>name</key>
+            <string>beamng.log.levelError</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([^|]+)[|][W][|]([^|]+)[|](.*)$</string>
+            <key>name</key>
+            <string>beamng.log.levelWarn</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>text.beamng</string>
+    <key>uuid</key>
+    <string>5fb77f58-2721-11e5-b345-feff819cdc9f</string>
+</dict>
+</plist>
