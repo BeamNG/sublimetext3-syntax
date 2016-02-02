@@ -8,33 +8,51 @@
     <array>
         <dict>
             <key>match</key>
+            <string>^.*?\|</string>
+            <key>name</key>
+            <string>variable.function.parameter.js</string>
+            <key>comment</key>
+            <string>Line Beginning</string>
+        </dict>
+        <dict>
+            <key>match</key>
             <string>^--.*$</string>
             <key>name</key>
-            <string>beamng.log.comment</string>
+            <string>comment.line.double-slash.js</string>
+            <key>comment</key>
+            <string>Comment</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>^([^|]+)[|](A|I)[|]([^|]+)[|](.*)$</string>
+            <string>(A|I)[|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>beamng.log.levelInfo</string>
+            <string>string.quoted.single.js</string>
+            <key>comment</key>
+            <string>Info</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>^([^|]+)[|](D)[|]([^|]+)[|](.*)$</string>
+            <string>(D)[|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>beamng.log.levelDebug</string>
+            <string>entity.name.function.js</string>
+            <key>comment</key>
+            <string>Debug</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>^([^|]+)[|][E][|]([^|]+)[|](.*)$</string>
+            <string>[E][|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>beamng.log.levelError</string>
+            <string>support.constant.dom.js</string>
+            <key>comment</key>
+            <string>Error</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>^([^|]+)[|][W][|]([^|]+)[|](.*)$</string>
+            <string>[W][|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>beamng.log.levelWarn</string>
+            <string>storage.type.function.js</string>
+            <key>comment</key>
+            <string>Warning</string>
         </dict>
     </array>
     <key>scopeName</key>
