@@ -10,7 +10,7 @@
             <key>match</key>
             <string>^.*?\|</string>
             <key>name</key>
-            <string>variable.function.parameter.js</string>
+            <string>variable.function.parameter.beamngLog</string>
             <key>comment</key>
             <string>Line Beginning</string>
         </dict>
@@ -18,7 +18,7 @@
             <key>match</key>
             <string>^--.*$</string>
             <key>name</key>
-            <string>comment.line.double-slash.js</string>
+            <string>comment.line.double-slash.beamngLog</string>
             <key>comment</key>
             <string>Comment</string>
         </dict>
@@ -26,7 +26,7 @@
             <key>match</key>
             <string>(A|I)[|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>string.quoted.single.js</string>
+            <string>string.quoted.single.beamngLog</string>
             <key>comment</key>
             <string>Info</string>
         </dict>
@@ -34,7 +34,7 @@
             <key>match</key>
             <string>(D)[|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>entity.name.function.js</string>
+            <string>entity.name.function.beamngLog</string>
             <key>comment</key>
             <string>Debug</string>
         </dict>
@@ -42,7 +42,7 @@
             <key>match</key>
             <string>[E][|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>support.constant.dom.js</string>
+            <string>support.constant.dom.beamngLog</string>
             <key>comment</key>
             <string>Error</string>
         </dict>
@@ -50,7 +50,7 @@
             <key>match</key>
             <string>[W][|]([^|]+)[|](.*)$</string>
             <key>name</key>
-            <string>storage.type.function.js</string>
+            <string>storage.type.function.beamngLog</string>
             <key>comment</key>
             <string>Warning</string>
         </dict>

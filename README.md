@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/BeamNG/sublimetext3-syntax/master/preview.png)
+![alt text](preview.png)
 
 # sublimetext3-syntax
 This is a simple plugin to provide syntax highlighting for the beamng log files in Sublime Text 3
